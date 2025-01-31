@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediQ - Portable Medicine Dispenser</title>
+  <link rel="stylesheet" href="styles1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="background" href="hack1.js">
+</head>
+<body>
+  <!-- Header Section -->
+ 
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">MediQ</a>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </div>
+        <a href="order.html" class="btn">Order Now</a>
+        <a href="login.html" class="btn ">Logout</a> <!-- Add this line -->
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Your Health, Simplified.</h1>
+        <p>
+          Introducing <strong>MediQ</strong>, the portable and affordable medicine dispensing solution designed to make life easier for everyone.
+        </p>
+        <div class="hero-buttons">
+          <a href="#features" class="btn btn-primary">Learn More</a>
+          <a href="#order" class="btn btn-secondary">Get Yours Now</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="mediQ-mockup.png" alt="MediQ Device" loading="lazy" />
+      </div>
+    </div>
+    <div class="scroll-progress"></div>
+    <button class="back-to-top" aria-label="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </section>
+  <div class="loading-screen">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Why Choose MediQ?</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <i class="fas fa-briefcase-medical"></i>
+          <h3>Portability</h3>
+          <p>Lightweight and easy to carry, fits into your busy lifestyle.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-dollar-sign"></i>
+          <h3>Affordability</h3>
+          <p>Revolutionary technology, budget-friendly pricing.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-cogs"></i>
+          <h3>Smart Dispensing</h3>
+          <p>Automatic, timed dispensing tailored to your needs.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>App Connectivity</h3>
+          <p>Track your medication schedule with our companion app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <h2>How MediQ Works in 3 Simple Steps</h2>
+      <div class="steps">
+        <div class="step">
+          <span>1</span>
+          <h3>Load</h3>
+          <p>Easily load your medicine using the labeled compartments.</p>
+        </div>
+        <div class="step">
+          <span>2</span>
+          <h3>Set</h3>
+          <p>Set your schedule using the device or our app.</p>
+        </div>
+        <div class="step">
+          <span>3</span>
+          <h3>Dispense</h3>
+          <p>Get your medicine on time, every time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Affordable Care for Everyone</h2>
+      <div class="pricing-cards">
+        <div class="card">
+          <h3>Basic</h3>
+          <p>$99</p>
+          <ul>
+            <li>Portable Design</li>
+            <li>Smart Dispensing</li>
+          </ul>
+          <a href="#order" class="btn btn-primary">Order Now</a>
+        </div>
+        <div class="card">
+          <h3>Premium</h3>
+          <p>$149</p>
+          <ul>
+            <li>All Basic Features</li>
+            <li>App Connectivity</li>
+          </ul>
+          <a href="#order" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>Got Questions? We've Got Answers!</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>How do I load the device?</h3>
+          <p>Simply follow the instructions provided in the manual or our app.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What medications can MediQ dispense?</h3>
+          <p>MediQ supports most standard-sized pills and capsules.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Users Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p>"MediQ has made managing my medication so much easier!"</p>
+          <span>- John Doe</span>
+        </div>
+        <div class="testimonial">
+          <p>"I love how portable and easy to use it is."</p>
+          <span>- Jane Smith</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="newsletter">
+    <div class="container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form id="newsletter-form">
+        <input type="email" name="email" placeholder="Your Email" required />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 MediQ. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="hack1.js"></script>
+</body>
+</html>
